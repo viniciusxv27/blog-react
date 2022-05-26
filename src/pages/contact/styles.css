@@ -1,0 +1,53 @@
+
+h1{
+    text-align: center;
+    font-family: 'Lobster', 'cursive';
+    font-size: 60px;
+}
+.container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.email{
+    border: solid 2px rgb(63, 63, 63);
+    border-radius: 20px;
+    padding: 10px;
+    width: 200px;
+}
+
+.message {
+    border: solid 2px rgb(63, 63, 63);
+    border-radius: 20px;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+}
+
+.button{
+    border: solid 2px rgb(63, 63, 63);
+    border-radius: 20px;
+    padding: 10px;
+    width: 200px;
+    font-family: 'Lobster', 'cursive';
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #FFF;
+    transition: 300ms;
+    text-align: center;
+    color: #000;
+}
+
+.button:hover{
+    background-color: #000;
+    color: #FFF;
+    box-shadow: #000 1px 10px 20px;
+}
+
+.espace {
+    margin-top: 20px;
+}
